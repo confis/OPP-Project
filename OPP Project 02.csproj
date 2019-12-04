@@ -1,0 +1,220 @@
+﻿<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.Default.props" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.Default.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2574F603-4B6C-4A30-BFDD-E3BC09EEDFDF}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TypeScriptHTMLApp1</RootNamespace>
+    <AssemblyName>TypeScriptHTMLApp1</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <TypeScriptToolsVersion>3.6</TypeScriptToolsVersion>
+    <Use64BitIISExpress />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <TypeScriptTarget>ES5</TypeScriptTarget>
+    <TypeScriptJSXEmit>None</TypeScriptJSXEmit>
+    <TypeScriptCompileOnSaveEnabled>True</TypeScriptCompileOnSaveEnabled>
+    <TypeScriptNoImplicitAny>False</TypeScriptNoImplicitAny>
+    <TypeScriptModuleKind>CommonJS</TypeScriptModuleKind>
+    <TypeScriptRemoveComments>True</TypeScriptRemoveComments>
+    <TypeScriptOutFile />
+    <TypeScriptOutDir />
+    <TypeScriptGeneratesDeclarations>False</TypeScriptGeneratesDeclarations>
+    <TypeScriptNoEmitOnError>True</TypeScriptNoEmitOnError>
+    <TypeScriptSourceMap>False</TypeScriptSourceMap>
+    <TypeScriptMapRoot />
+    <TypeScriptSourceRoot />
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="ITEMS\Belt\Belt.js.map" />
+    <Content Include="ITEMS\Cloth\Dimensions\Dimensions.js.map" />
+    <Content Include="ITEMS\Cloth\Hat\Cap.js.map" />
+    <Content Include="ITEMS\Cloth\Hat\Cylinder.js.map" />
+    <Content Include="ITEMS\Cloth\Hat\Hat.js.map" />
+    <Content Include="ITEMS\Cloth\Pants\FabricPants.js.map" />
+    <Content Include="ITEMS\Cloth\Pants\Jeans.js.map" />
+    <Content Include="ITEMS\Cloth\Pants\Pants.js.map" />
+    <Content Include="ITEMS\Cloth\Pants\Shorts.js.map" />
+    <Content Include="ITEMS\Cloth\Shirts\Buttoned.js.map" />
+    <Content Include="ITEMS\Cloth\Shirts\Man-T-Shirt.js.map" />
+    <Content Include="ITEMS\Cloth\Shirts\Shirts.js.map" />
+    <Content Include="ITEMS\Cloth\Shirts\Women-T-Shirt.js.map" />
+    <Content Include="ITEMS\Cloth\Shoes\HighHeels.js.map" />
+    <Content Include="ITEMS\Cloth\Shoes\Laces\ComfortShoes.js.map" />
+    <Content Include="ITEMS\Cloth\Shoes\Laces\Elegant.js.map" />
+    <Content Include="ITEMS\Cloth\Shoes\Laces\Laces.js.map" />
+    <Content Include="ITEMS\Cloth\Shoes\Laces\Sneakers.js.map" />
+    <Content Include="ITEMS\Cloth\Shoes\Shoes.js.map" />
+    <Content Include="ITEMS\Cloth\Tops\Coat.js.map" />
+    <Content Include="ITEMS\Cloth\Tops\Jacket.js.map" />
+    <Content Include="ITEMS\Cloth\Tops\Tops.js.map" />
+    <Content Include="ITEMS\Cloth\WomenCothing\Dress.js.map" />
+    <Content Include="ITEMS\Cloth\WomenCothing\EveningDress.js.map" />
+    <Content Include="ITEMS\Cloth\WomenCothing\Skirt.js.map" />
+    <Content Include="ITEMS\Cloth\WomenCothing\WomenClothing.js.map" />
+    <Content Include="ITEMS\Glasses\Glasses.js.map" />
+    <Content Include="ITEMS\Glasses\ReadingGlasses.js.map" />
+    <Content Include="ITEMS\Glasses\Sunglasses.js.map" />
+    <Content Include="ITEMS\images\01.jpg" />
+    <Content Include="ITEMS\images\02.jpg" />
+    <Content Include="ITEMS\images\03.jpg" />
+    <Content Include="ITEMS\images\04.jpg" />
+    <Content Include="ITEMS\images\05.jpg" />
+    <Content Include="ITEMS\images\06.jpg" />
+    <Content Include="ITEMS\images\07.jpg" />
+    <Content Include="ITEMS\images\08.jpg" />
+    <Content Include="ITEMS\images\09.jpg" />
+    <Content Include="ITEMS\images\10.jpg" />
+    <Content Include="ITEMS\images\11.jpg" />
+    <Content Include="ITEMS\images\12.jpg" />
+    <Content Include="ITEMS\images\13.jpg" />
+    <Content Include="ITEMS\images\14.jpg" />
+    <Content Include="ITEMS\images\15.jpg" />
+    <Content Include="ITEMS\images\16.jpg" />
+    <Content Include="ITEMS\images\17.jpg" />
+    <Content Include="ITEMS\images\18.jpg" />
+    <Content Include="ITEMS\images\19.jpg" />
+    <Content Include="ITEMS\images\20.jpg" />
+    <Content Include="ITEMS\items.js.map" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="app.css" />
+    <Content Include="index.html" />
+    <Content Include="ITEMS\Belt\Belt.js" />
+    <Content Include="ITEMS\Cloth\Dimensions\Dimensions.js" />
+    <Content Include="ITEMS\Cloth\Hat\Cap.js" />
+    <Content Include="ITEMS\Cloth\Hat\Cylinder.js" />
+    <Content Include="ITEMS\Cloth\Hat\Hat.js" />
+    <Content Include="ITEMS\Cloth\Pants\FabricPants.js" />
+    <Content Include="ITEMS\Cloth\Pants\Jeans.js" />
+    <Content Include="ITEMS\Cloth\Pants\Pants.js" />
+    <Content Include="ITEMS\Cloth\Pants\Shorts.js" />
+    <Content Include="ITEMS\Cloth\Shirts\Buttoned.js" />
+    <Content Include="ITEMS\Cloth\Shirts\Man-T-Shirt.js" />
+    <Content Include="ITEMS\Cloth\Shirts\Shirts.js" />
+    <Content Include="ITEMS\Cloth\Shirts\Women-T-Shirt.js" />
+    <Content Include="ITEMS\Cloth\Shoes\HighHeels.js" />
+    <Content Include="ITEMS\Cloth\Shoes\Laces\ComfortShoes.js" />
+    <Content Include="ITEMS\Cloth\Shoes\Laces\Elegant.js" />
+    <Content Include="ITEMS\Cloth\Shoes\Laces\Laces.js" />
+    <Content Include="ITEMS\Cloth\Shoes\Laces\Sneakers.js" />
+    <Content Include="ITEMS\Cloth\Shoes\Shoes.js" />
+    <Content Include="ITEMS\Cloth\Tops\Coat.js" />
+    <Content Include="ITEMS\Cloth\Tops\Jacket.js" />
+    <Content Include="ITEMS\Cloth\Tops\Tops.js" />
+    <Content Include="ITEMS\Cloth\WomenCothing\Dress.js" />
+    <Content Include="ITEMS\Cloth\WomenCothing\EveningDress.js" />
+    <Content Include="ITEMS\Cloth\WomenCothing\Skirt.js" />
+    <Content Include="ITEMS\Cloth\WomenCothing\WomenClothing.js" />
+    <Content Include="ITEMS\Glasses\Glasses.js" />
+    <Content Include="ITEMS\Glasses\ReadingGlasses.js" />
+    <Content Include="ITEMS\Glasses\Sunglasses.js" />
+    <Content Include="ITEMS\items.js" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <TypeScriptCompile Include="ITEMS\app.ts" />
+    <TypeScriptCompile Include="ITEMS\Belt\Belt.ts" />
+    <TypeScriptCompile Include="ITEMS\Cloth\ClothProperties.ts" />
+    <TypeScriptCompile Include="ITEMS\Cloth\Dimensions\Dimensions.ts" />
+    <TypeScriptCompile Include="ITEMS\Cloth\Hat\Cap.ts" />
+    <TypeScriptCompile Include="ITEMS\Cloth\Hat\Cylinder.ts" />
+    <TypeScriptCompile Include="ITEMS\Cloth\Hat\Hat.ts" />
+    <TypeScriptCompile Include="ITEMS\Cloth\Pants\FabricPants.ts" />
+    <TypeScriptCompile Include="ITEMS\Cloth\Pants\Jeans.ts" />
+    <TypeScriptCompile Include="ITEMS\Cloth\Pants\Pants.ts" />
+    <TypeScriptCompile Include="ITEMS\Cloth\Pants\Shorts.ts" />
+    <TypeScriptCompile Include="ITEMS\Cloth\Shirts\Buttoned.ts" />
+    <TypeScriptCompile Include="ITEMS\Cloth\Shirts\Man-T-Shirt.ts" />
+    <TypeScriptCompile Include="ITEMS\Cloth\Shirts\Shirts.ts" />
+    <TypeScriptCompile Include="ITEMS\Cloth\Shirts\Women-T-Shirt.ts" />
+    <TypeScriptCompile Include="ITEMS\Cloth\Shoes\HighHeels.ts" />
+    <TypeScriptCompile Include="ITEMS\Cloth\Shoes\Laces\ComfortShoes.ts" />
+    <TypeScriptCompile Include="ITEMS\Cloth\Shoes\Laces\Elegant.ts" />
+    <TypeScriptCompile Include="ITEMS\Cloth\Shoes\Laces\Laces.ts" />
+    <TypeScriptCompile Include="ITEMS\Cloth\Shoes\Laces\Sneakers.ts" />
+    <TypeScriptCompile Include="ITEMS\Cloth\Shoes\Shoes.ts" />
+    <TypeScriptCompile Include="ITEMS\Cloth\Tops\Coat.ts" />
+    <TypeScriptCompile Include="ITEMS\Cloth\Tops\Jacket.ts" />
+    <TypeScriptCompile Include="ITEMS\Cloth\Tops\Tops.ts" />
+    <TypeScriptCompile Include="ITEMS\Cloth\WomenCothing\Dress.ts" />
+    <TypeScriptCompile Include="ITEMS\Cloth\WomenCothing\EveningDress.ts" />
+    <TypeScriptCompile Include="ITEMS\Cloth\WomenCothing\Skirt.ts" />
+    <TypeScriptCompile Include="ITEMS\Cloth\WomenCothing\WomenClothing.ts" />
+    <TypeScriptCompile Include="ITEMS\Enums\ennams.ts" />
+    <TypeScriptCompile Include="ITEMS\Generator.ts" />
+    <TypeScriptCompile Include="ITEMS\Glasses\Glasses.ts" />
+    <TypeScriptCompile Include="ITEMS\Glasses\ReadingGlasses.ts" />
+    <TypeScriptCompile Include="ITEMS\Glasses\Sunglasses.ts" />
+    <TypeScriptCompile Include="ITEMS\items.ts" />
+    <TypeScriptCompile Include="ITEMS\Tester.ts" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets')" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>10202</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:10202/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>
